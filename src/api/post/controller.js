@@ -1,10 +1,12 @@
 import _ from 'lodash'
 import { success, notFound, authorOrAdmin } from '../../services/response/'
 import { Post } from '.'
+import app from '../../app'
 
-export const create = ({ user, bodymen: { body } }, res, next) =>
+export const create = ({ user, bodymen: { body } }, res, next) => 
   Post.create({ ...body, user })
-    .then((post) => post.view(true))
+    .then((post) => (post.view(true)))
+    .then(app.io.emit('status', 'My Status'))
     .then(success(res, 201))
     .catch(next)
 
