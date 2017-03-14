@@ -1,7 +1,19 @@
+import app from '../../app'
+
 export const success = (res, status) => (entity) => {
   if (entity) {
     res.status(status || 200).json(entity)
   }
+  return null
+}
+
+export const emitStatus = (res, status) => (entity) => {
+  
+  if (entity) {
+    app.io.emit('status', entity)
+    res.status(status || 200).json(entity)
+  }
+
   return null
 }
 
