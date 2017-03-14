@@ -1,6 +1,5 @@
 [![Build Status](https://travis-ci.org/jenasubodh/statushub-api.svg?branch=master)](https://travis-ci.org/jenasubodh/statushub-api)
-
-[![Deployment Status](https://heroku-badge.herokuapp.com/?app=statushub-dev)](https://travis-ci.org/jenasubodh/statushub-api)
+[![Deployment Status](https://heroku-badge.herokuapp.com/?app=statushub-dev)](https://statushub-dev.herokuapp.com/)
 
 # StatusHub
 
