@@ -1,4 +1,4 @@
-import app from '../../app'
+//import app from '../../app'
 
 export const success = (res, status) => (entity) => {
   if (entity) {
@@ -10,7 +10,7 @@ export const success = (res, status) => (entity) => {
 export const emitStatus = (res, status) => (entity) => {
   
   if (entity) {
-    app.io.emit('status', entity)
+    //app.io.emit('status', entity)
     res.status(status || 200).json(entity)
   }
 

@@ -25,4 +25,4 @@ setImmediate(() => {
   })
 })
 
-export default {app, io}
+export default app
