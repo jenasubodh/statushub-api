@@ -34,32 +34,6 @@ Express server listening on http://0.0.0.0:9000, in development mode
 
 ## Directory structure
 
-### Overview
-
-You can customize the `src` and `api` directories.
-
-```
-src/
-├─ api/
-│  ├─ user/
-│  │  ├─ controller.js
-│  │  ├─ index.js
-│  │  ├─ index.test.js
-│  │  ├─ model.js
-│  │  └─ model.test.js
-│  └─ index.js
-├─ services/
-│  ├─ express/
-│  ├─ facebook/
-│  ├─ mongoose/
-│  ├─ passport/
-│  ├─ sendgrid/
-│  └─ your-service/
-├─ app.js
-├─ config.js
-└─ index.js
-```
-
 ### src/api/
 
 Here is where the API endpoints are defined. Each API has its own folder.
