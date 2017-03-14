@@ -15,5 +15,5 @@ script:
 env:
   global:
   - CXX=g++-4.8
-  - MASTER_KEY=masterKey
-  - JWT_SECRET=jwtSecret
+  - MASTER_KEY=t3udI6F9uEc5bHDPQOjokzn9fgfA4wDq
+  - JWT_SECRET=WoIR8NWUNPqgvrmcZCR3lRRRwwCKtXt5
